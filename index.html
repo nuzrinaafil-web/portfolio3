@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nusry Nafil</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ░░ CURSOR ░░ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ░░ NAVBAR ░░ -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo">Portfolio<span>.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about"    class="nav-link">About</a></li>
+      <li><a href="#skills"   class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact"  class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ░░ HERO ░░ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <p class="hero-tag reveal-up delay-1">Hello</p>
+      <h1 class="hero-name reveal-up delay-2">Nusry<br/><span>Nafil</span></h1>
+      <p class="hero-title reveal-up delay-3">Web Developer &amp; Software Engineering Student</p>
+      <p class="hero-intro reveal-up delay-4">
+        I handle all kind of Software, develop websites &amp; Mainly use HTML, CSS, JavaScript, Node.js.
+      </p>
+      <div class="hero-cta reveal-up delay-5">
+        <a href="nusrys_cv.pdf" class="btn btn-primary">
+          <i class="fa-solid fa-download"></i>Download CV
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual reveal-up delay-3">
+      <div class="phone-mockup">
+        <div class="phone-screen">
+          <div class="app-ui">
+            <div class="app-bar"></div>
+            <div class="app-card"></div>
+            <div class="app-card short"></div>
+            <div class="app-row">
+              <div class="app-chip"></div>
+              <div class="app-chip"></div>
+              <div class="app-chip"></div>
+            </div>
+            <div class="app-card medium"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ░░ ABOUT ░░ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label reveal-up">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text reveal-up delay-1">
+          <h2 class="section-title">Passionate about building <span>experiences</span></h2>
+          <p>
+            I'm a passionate Software Engineering student pursuing my Bachelor of Information Technology degree at the University of Colombo (External). I have strong knowledge in the development field and confidently handle various IT-related tasks and technical challenges.
+          </p>
+          <p>
+            I have completed a Digital Marketing Certificate Level course and understand branding, online marketing, and business growth. I can manage social media, create content, design graphics, edit videos, and handle full digital operations.
+          </p>
+          <p>
+            I also have practical knowledge in using AI tools for automation, content creation, research, and improving productivity. In addition, I can manage computer hardware troubleshooting and general IT support. I combine technology, AI, and business knowledge to deliver smart and effective digital solutions.
+          </p>
+          <div class="about-stats">
+            <div class="stat"></div>
+            <div class="stat"></div>
+            <div class="stat"></div>
+          </div>
+        </div>
+        <div class="about-image reveal-up delay-2">
+          <div class="image-frame">
+            <div class="image-placeholder">
+              <img src="my_pic.jpeg" alt="Nusry Nafil" />
+            </div>
+            <div class="frame-accent top-left"></div>
+            <div class="frame-accent bottom-right"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ SKILLS ░░ -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-label reveal-up">02 — Skills</div>
+      <h2 class="section-title reveal-up delay-1">Tech I work with <span>daily</span></h2>
+      <div class="skills-grid">
+        <div class="skills-bars reveal-up delay-2">
+          <div class="skill-item" data-percent="75">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-solid fa-mobile-screen"></i> Development</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-percent="75">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-solid fa-desktop"></i> Software Handling</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-percent="70">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-solid fa-microchip"></i> IT Hardware Managing</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-percent="70">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-solid fa-chart-line"></i> Digital Marketing</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-percent="75">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-brands fa-html5"></i> 3 Languages</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-percent="75">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fa-solid fa-lightbulb"></i> Problem Solving</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+        <div class="skills-tags-col reveal-up delay-3">
+          <h3>Tools &amp; Ecosystem</h3>
+          <div class="tags-cloud">
+            <span class="tag">Firebase</span>
+            <span class="tag">Git &amp; GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Claude AI</span>
+            <span class="tag">XAMPP</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Canva</span>
+            <span class="tag">CapCut</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACT ░░ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-label reveal-up">04 — Contact</div>
+      <h2 class="section-title reveal-up delay-1">Let's work <span>together</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal-up delay-2">
+          <p>Have a vacancy in mind or just want to say hello? I'd love to hear from you. Let's create something amazing together.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
+              <span>nuzrinaafil@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
+              <span>Mawanella, Sri Lanka</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"><i class="fa-solid fa-circle-check"></i></span>
+              <span>Available for IT related jobs</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal-up delay-3"
+          action="mailto:nuzrinaafil@gmail.com"
+          method="POST"
+          enctype="text/plain">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="TYPE YOUR NAME" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder=".....@gmail.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about ..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            <span class="btn-text">Send Message</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="nav-logo">Portfolio<span>.</span></span>
+          <p>Web Developer</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/nusry-naafil-81800a333" aria-label="LinkedIn" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://wa.me/94765539544" aria-label="WhatsApp" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/_nus_nushi_?igsh=MTdpaGQwMHhscjRqZQ%3D%3D&utm_source=qr" aria-label="Instagram" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Nusry Nafil. Crafted with <span class="heart">♥</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="script1.js"></script>
+</body>
+</html>
